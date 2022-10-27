@@ -1,15 +1,17 @@
 <!-- Outer Row -->
-<div class="row justify-content-center mt-5">
+<div class="row justify-content-center mt-3">
 
-	<div class="col-xl-10 col-lg-12 col-md-9">
+	<div class="col-xl-10 col-lg-12 col-md-8">
 
 		<div class="card o-hidden border-0 shadow-lg">
-			<div class="card-body p-lg-5 p-0">
+			<div class="card-body p-lg-5 p-2">
 				<div class="p-4">
 					<div class="text-center mb-4">
-						<h1 class="h4 text-gray-900"><img src="assets/img/logo_gundam2.png" width="120px"><br>
-							Gundam: The Origin</h1>
-						<span class="text-muted">Daftar Akun Gundam Anda</span>
+						<img class="mx-auto mb-2" src="assets/img/logo_sbh.png" width="85px">
+						<h1 class="h4 text-black-50">
+							<span class="text-muted">Registrasi Akun | Inventori Laboran FARMASI</span>
+						</h1>
+
 					</div>
 					<?= $this->session->flashdata('pesan'); ?>
 					<?= form_open('', ['class' => 'user']); ?>
@@ -53,7 +55,7 @@
 						Daftar
 					</button>
 					<div class="text-center mt-4">
-						<a class="small" href="<?= base_url('auth') ?>">Already Have an Account? Login</a>
+						<a class="small" href="<?= base_url('auth') ?>">Sudah Punya Akun? Silahkan Login</a>
 					</div>
 					<?= form_close(); ?>
 

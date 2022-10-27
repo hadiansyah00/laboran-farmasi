@@ -87,7 +87,7 @@ class Auth extends CI_Controller
 			$input = $this->input->post(null, true);
 			unset($input['password2']);
 			$input['password']      = password_hash($input['password'], PASSWORD_DEFAULT);
-			$input['role']          = 'gudang';
+			$input['role']          = 'mahasiswa';
 			$input['foto']          = 'user.png';
 			$input['is_active']     = 0;
 			$input['created_at']    = time();

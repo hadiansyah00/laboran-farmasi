@@ -21,15 +21,14 @@
 
 	<style>
 		.bg-login-image {
-			background-image: url("<?= base_url('assets/img/logo_gundam2.png'); ?>");
+			background-image: url("<?= base_url('assets/img/pharmacy.png'); ?>");
 			background-repeat: no-repeat;
-			background-size: 100%;
+			background-size: 65%;
 		}
 	</style>
 </head>
 
-
-<body class="bg-gradient-primary">
+<body class=" {background-color:#800080};">
 
 	<div class="container">
 
