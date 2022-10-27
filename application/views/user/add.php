@@ -74,8 +74,8 @@
 							<label class="custom-control-label" for="admin">Admin</label>
 						</div>
 						<div class="custom-control custom-radio">
-							<input <?= set_radio('role', 'laboran'); ?> value="laboran" type="radio" id="laboran" name="role" class="custom-control-input">
-							<label class="custom-control-label" for="laboran">laboran</label>
+							<input <?= set_radio('role', 'users'); ?> value="users" type="radio" id="users" name="role" class="custom-control-input">
+							<label class="custom-control-label" for="users">users</label>
 						</div>
 						<?= form_error('role', '<span class="text-danger small">', '</span>'); ?>
 					</div>
