@@ -92,12 +92,12 @@
 				</div>
 			</li>
 			<div class="sidebar-heading">
-				Aset
+				_
 			</div>
 			<li class="nav-item">
 				<a class="nav-link" href="<?= base_url('aset'); ?>">
 					<i class="fas fa-fw fa-upload"></i>
-					<span><b> Aset </b></span>
+					<span><b> Peralatan </b></span>
 				</a>
 			</li>
 			<!-- Divider -->

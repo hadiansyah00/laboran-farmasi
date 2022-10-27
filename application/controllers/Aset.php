@@ -153,11 +153,4 @@ class aset extends CI_Controller
 		}
 		redirect('aset');
 	}
-
-	public function getstok($getId)
-	{
-		$id = encode_php_tags($getId);
-		$query = $this->admin->cekStok($id);
-		output_json($query);
-	}
 }
